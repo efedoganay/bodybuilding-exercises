@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66105D1B-E303-4521-BC32-1DA473353158"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkoutAnatomy/ImageTextTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ImageTextTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D - e8207736a4048842"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkoutAnatomy.ImageTextTableViewCell.iconImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "WorkoutAnatomy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fikretefe/Desktop/100%20Days%20Of%20Swift/WorkoutAnatomy/WorkoutAnatomy/ImageTextTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D - 4a694d33fecad436"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkoutAnatomy.ImageTextTableViewCell.iconImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "WorkoutAnatomy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fikretefe/Desktop/100%20Days%20Of%20Swift/WorkoutAnatomy/WorkoutAnatomy/ImageTextTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D - 83137eaafcd8ef41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkoutAnatomy.ImageTextTableViewCell.iconImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "WorkoutAnatomy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fikretefe/Desktop/100%20Days%20Of%20Swift/WorkoutAnatomy/WorkoutAnatomy/ImageTextTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D - 4bd2ab179438c206"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkoutAnatomy.ImageTextTableViewCell.iconImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WorkoutAnatomy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fikretefe/Desktop/100%20Days%20Of%20Swift/WorkoutAnatomy/WorkoutAnatomy/ImageTextTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D - 9d3896a894c7f5f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkoutAnatomy.ImageTextTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; WorkoutAnatomy.ImageTextTableViewCell"
+                  moduleName = "WorkoutAnatomy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fikretefe/Desktop/100%20Days%20Of%20Swift/WorkoutAnatomy/WorkoutAnatomy/ImageTextTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "C2DE4DFB-1EBC-4E82-8AAF-305F2F49652D - 591f17e628690b42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkoutAnatomy.ImageTextTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WorkoutAnatomy.ImageTextTableViewCell&gt;"
+                  moduleName = "WorkoutAnatomy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fikretefe/Desktop/100%20Days%20Of%20Swift/WorkoutAnatomy/WorkoutAnatomy/ImageTextTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "224E48B7-CFE6-4AD5-BC1D-2B6BE0FF389F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkoutAnatomy/Exercise.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Exercise"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

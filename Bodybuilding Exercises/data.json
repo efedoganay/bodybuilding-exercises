@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Chest",
+    "imageFileName": "Chest",
+    "exercises": [
+      {
+        "name": "Bench Press",
+        "description": "The bench press is a strength-training exercise that involves lying flat on a bench, lifting a barbell loaded with weights from chest height to full arm extension, primarily targeting the chest, shoulders, and triceps muscles. It is a fundamental compound exercise often included in weightlifting routines to build upper body strength and muscle mass.",
+        "imageFileName": "bench_press",
+        "requiredEquipment": [
+          "Barbell",
+          "Dumbell"
+        ]
+      },
+      {
+        "name": "Incline Bench Press",
+        "description": "The incline bench press is a variation of the bench press exercise where the bench is set at an incline, typically at an angle of around 45 degrees. This variation primarily targets the upper chest muscles while also engaging the shoulders and triceps, helping to develop a balanced and well-rounded chest.",
+        "imageFileName": "incline_bench_press",
+        "requiredEquipment": [
+          "Barbell",
+          "Dumbell"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Biceps",
+    "imageFileName": "Biceps",
+    "exercises": [
+      {
+        "name": "Barbell Curl",
+        "description": "The barbell curl is a strength-training exercise that involves lifting a barbell with both hands from a fully extended position to a curled position, primarily targeting the biceps muscles. It is a fundamental exercise for building arm strength and size and is commonly used in weightlifting and bodybuilding routines.",
+        "imageFileName": "barbell_curl",
+        "requiredEquipment": [
+          "Barbell",
+          "Dumbell"
+        ]
+      },
+      {
+        "name": "Hammer Curl",
+        "description": "The hammer curl is a bicep-strengthening exercise performed by holding a dumbbell in each hand with a neutral grip (palms facing each other) and curling the weights from a fully extended position to shoulder level. This exercise targets the biceps brachii and brachialis muscles and is often used to add variety to arm workouts and promote balanced muscle development.",
+        "imageFileName": "hammer_curl",
+        "requiredEquipment": [
+          "Barbell",
+          "Dumbell"
+        ]
+      },
+      {
+        "name": "Reverse Curl",
+        "description": "Reverse Curl is a bicep exercise performed with dumbbells or a barbell. In this exercise, you bend your arm at the elbow with your palms facing your body and lift the weight upward. This movement targets the forearm muscles and helps strengthen the biceps.",
+        "imageFileName": "reverse_curl",
+        "requiredEquipment": [
+          "Barbell",
+          "Dumbell"
+        ]
+      }
+    ]
+  }
+]

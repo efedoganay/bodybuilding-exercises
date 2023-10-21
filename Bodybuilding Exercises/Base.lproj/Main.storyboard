@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uJX-or-eJg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="L9D-J6-TRC">
+            <objects>
+                <tableViewController id="H3J-y8-tpN" customClass="ViewController" customModule="WorkoutAnatomy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="NLb-am-x0v">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="ImageWithText" textLabel="wJl-rn-x0W" imageView="lhh-4e-gRs" style="IBUITableViewCellStyleDefault" id="1R7-1S-4sA" customClass="ImageTextTableViewCell" customModule="WorkoutAnatomy" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1R7-1S-4sA" id="PeA-w6-LeA">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wJl-rn-x0W">
+                                            <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="lhh-4e-gRs">
+                                            <rect key="frame" x="20" y="0.0" width="81" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <accessibility key="accessibilityConfiguration">
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" identifier="ImageWithText">
+                                    <accessibilityTraits key="traits" image="YES" staticText="YES"/>
+                                </accessibility>
+                                <connections>
+                                    <outlet property="iconImageView" destination="lhh-4e-gRs" id="5b3-Al-5E1"/>
+                                    <outlet property="titleLabel" destination="wJl-rn-x0W" id="DNh-us-kKu"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="H3J-y8-tpN" id="cet-b2-KOl"/>
+                            <outlet property="delegate" destination="H3J-y8-tpN" id="NGx-vw-VPh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="J14-o8-wrq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tzv-y9-Vs1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999.23664122137404" y="-673.23943661971839"/>
+        </scene>
+        <!--Exercise View Controller-->
+        <scene sceneID="KAL-D6-hyX">
+            <objects>
+                <tableViewController storyboardIdentifier="Exercise" id="m1e-W5-xeZ" customClass="ExerciseViewController" customModule="WorkoutAnatomy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="LoV-GS-z1V">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="ImageWithText" textLabel="Fs9-mV-Hlo" imageView="ljY-tY-vuG" style="IBUITableViewCellStyleDefault" id="kmq-50-8Kj" customClass="ImageTextTableViewCell" customModule="WorkoutAnatomy" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kmq-50-8Kj" id="ALt-Sb-aZO">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fs9-mV-Hlo">
+                                            <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="ljY-tY-vuG">
+                                            <rect key="frame" x="20" y="0.0" width="81" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <accessibility key="accessibilityConfiguration">
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" identifier="ImageWithText">
+                                    <accessibilityTraits key="traits" image="YES" staticText="YES"/>
+                                </accessibility>
+                                <connections>
+                                    <outlet property="iconImageView" destination="ljY-tY-vuG" id="el5-kH-Emp"/>
+                                    <outlet property="titleLabel" destination="Fs9-mV-Hlo" id="arA-Tm-d2t"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="m1e-W5-xeZ" id="m34-0z-1Ut"/>
+                            <outlet property="delegate" destination="m1e-W5-xeZ" id="vgf-vP-mjh"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RRu-07-htz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="-673"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CAr-rb-VqB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uJX-or-eJg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DOf-RO-c9o">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="H3J-y8-tpN" kind="relationship" relationship="rootViewController" id="Enz-yL-FGC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w4y-J8-5T2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.51908396946564" y="-673.23943661971839"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Q1j-zu-efz">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="O23-pS-K7b" customClass="DetailViewController" customModule="WorkoutAnatomy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zyv-f6-XKQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ctS-1u-11W">
+                                <rect key="frame" x="76" y="129" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="zmo-Sp-PU1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNt-Jq-aha">
+                                <rect key="frame" x="16" y="458" width="361" height="360"/>
+                                <accessibility key="accessibilityConfiguration" label="Description"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="360" id="xQs-3t-Ko6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgB-RD-P0X">
+                                <rect key="frame" x="175" y="377" width="42" height="21"/>
+                                <accessibility key="accessibilityConfiguration" label="Title"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CC5-rq-dd0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ctS-1u-11W" firstAttribute="leading" secondItem="CC5-rq-dd0" secondAttribute="leading" constant="76" id="0Lt-2M-iSa"/>
+                            <constraint firstItem="wNt-Jq-aha" firstAttribute="leading" secondItem="Zyv-f6-XKQ" secondAttribute="leadingMargin" id="4tx-ed-3ZP"/>
+                            <constraint firstItem="ctS-1u-11W" firstAttribute="centerX" secondItem="Zyv-f6-XKQ" secondAttribute="centerX" id="6R7-N5-h2n"/>
+                            <constraint firstItem="ctS-1u-11W" firstAttribute="top" secondItem="CC5-rq-dd0" secondAttribute="top" constant="70" id="9T6-YV-IDF"/>
+                            <constraint firstItem="wNt-Jq-aha" firstAttribute="centerX" secondItem="ZgB-RD-P0X" secondAttribute="centerX" id="9j8-jQ-jS1"/>
+                            <constraint firstItem="ctS-1u-11W" firstAttribute="centerX" secondItem="ZgB-RD-P0X" secondAttribute="centerX" id="FWr-mb-zEN"/>
+                            <constraint firstItem="wNt-Jq-aha" firstAttribute="bottom" secondItem="CC5-rq-dd0" secondAttribute="bottom" id="YEl-03-RkE"/>
+                            <constraint firstItem="ZgB-RD-P0X" firstAttribute="top" secondItem="ctS-1u-11W" secondAttribute="bottom" constant="47" id="ht6-Ai-oKC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="wNt-Jq-aha" id="bb6-dy-6NN"/>
+                        <outlet property="imageView" destination="ctS-1u-11W" id="CIn-jO-52X"/>
+                        <outlet property="titleLabel" destination="ZgB-RD-P0X" id="NXP-GT-aZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Odd-QL-bNf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2645" y="-673"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
