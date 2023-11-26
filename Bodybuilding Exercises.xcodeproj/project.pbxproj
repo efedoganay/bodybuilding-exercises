@@ -33,7 +33,7 @@
 		EF56AE112AACD3720041A63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF56AE132AACD3750041A63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF56AE162AACD3750041A63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF56AE182AACD3750041A63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF56AE182AACD3750041A63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/efedoganay/Desktop/Bodybuilding Exercises/Bodybuilding Exercises/Info.plist"; sourceTree = "<absolute>"; };
 		EF56AE1E2AACD6DD0041A63C /* BodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPart.swift; sourceTree = "<group>"; };
 		EF56AE202AACD6F30041A63C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		EF56AE222AACF0770041A63C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XC9HX8N9H8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutAnatomy/Info.plist;
+				INFOPLIST_FILE = "/Users/efedoganay/Desktop/Bodybuilding Exercises/Bodybuilding Exercises/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -349,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XC9HX8N9H8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutAnatomy/Info.plist;
+				INFOPLIST_FILE = "/Users/efedoganay/Desktop/Bodybuilding Exercises/Bodybuilding Exercises/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
